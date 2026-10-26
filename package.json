@@ -1,0 +1,13 @@
+{
+  "name": "odds-data-pipeline-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "run": "node src/index.js",
+    "once": "node src/index.js --once"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "provider": "mock-b",
+  "matches": [
+    {
+      "match_id": "m-1001",
+      "teams": ["Istanbul Reds", "Ankara Blues"],
+      "kickoff": 1789232400000,
+      "prices": [
+        {
+          "bm": "Book B",
+          "market": "match_winner",
+          "home": 1.86,
+          "draw": 3.35,
+          "away": 4.00
+        },
+        {
+          "bm": "Book B",
+          "market": "totals",
+          "line": "2.5",
+          "over": "10/11",
+          "under": "19/20"
+        }
+      ]
+    },
+    {
+      "match_id": "m-1003",
+      "teams": ["Trabzon North", "Adana South"],
+      "kickoff": 1789243200000,
+      "prices": [
+        {
+          "bm": "Book B",
+          "market": "match_winner",
+          "home": 1.70,
+          "draw": 3.70,
+          "away": 4.80
+        }
+      ]
+    }
+  ]
+}

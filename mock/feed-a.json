@@ -1,0 +1,50 @@
+{
+  "source": "mock-a",
+  "events": [
+    {
+      "id": "m-1001",
+      "sport": "football",
+      "home": "Istanbul Reds",
+      "away": "Ankara Blues",
+      "startsAt": "2026-09-12T17:00:00Z",
+      "markets": [
+        {
+          "type": "1x2",
+          "bookmaker": "Book A",
+          "odds": {
+            "home": "1.83",
+            "draw": "3.40",
+            "away": "4.10"
+          }
+        },
+        {
+          "type": "over_under",
+          "line": 2.5,
+          "bookmaker": "Book A",
+          "odds": {
+            "over": "1.91",
+            "under": "1.88"
+          }
+        }
+      ]
+    },
+    {
+      "id": "m-1002",
+      "sport": "football",
+      "home": "Izmir City",
+      "away": "Bursa Town",
+      "startsAt": "2026-09-12T19:00:00Z",
+      "markets": [
+        {
+          "type": "1x2",
+          "bookmaker": "Book A",
+          "odds": {
+            "home": "2.05",
+            "draw": "3.20",
+            "away": "3.30"
+          }
+        }
+      ]
+    }
+  ]
+}
